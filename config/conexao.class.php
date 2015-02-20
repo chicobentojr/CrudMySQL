@@ -7,10 +7,7 @@ class conexao
         Altere as variaveis a seguir caso necessario
     */
 
-    private $db_host = 'localhost'; // servidor
-    private $db_user = 'adminUlYlqw4'; // usuario do banco
-    private $db_pass = 'gdunaksn42mr'; // senha do usuario do banco
-    private $db_name = 'crud'; // nome do banco
+    require_once('conexao.config.class.php');	
 
     private $con = false;
 
